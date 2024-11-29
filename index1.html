@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- email js script -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <img  src="./images/Unwitainsights_logo.png" height="10%" width="10%">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#approach">Approach</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#solution">Solution</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#partner">Partner</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Sections -->
+        <section id="home" >
+            <!-- <div class="landing-page"> -->
+                <img src="./images/landing_page.png" alt="Landing Image" class="landing-image">
+              <!-- </div> -->
+        </section>
+        <section id="approach" class="text-white">
+            <div class="approach-container">
+                <h2 class="title">Approach</h2>
+                <div class="image-grid">
+                    <div class="image-wrapper">
+                        <img src="./images/approach1.png" class="approach-image1" alt="Image 1">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="./images/approach2.png" class="approach-image2" alt="Image 2">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="./images/approach3.png" class="approach-image3" alt="Image 3">
+                    </div>
+                </div>
+                <p class="description">
+                    "It takes a village" is an African proverb that signifies the importance of a 
+                    collaborative approach to find solutions. We partner with academia, government 
+                    organizations, private enterprises and start-up companies to leverage 
+                    collective wisdom. Our products are customized for a specific scenario and 
+                    requires all stakeholders to work towards a common goal.
+                </p>
+            </div>
+        </section>
+        <section id="solution" class=" text-white" style="background-color: #8db7b3;">
+            <h2 class="text-center mb-4 relative w-full p-4 flex justify-center items-center">
+                Innovative IT Solutions for Modern Business </h2>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row ">
+                                <div class="col-md-12 solution ">
+                                    <img src="./images/solution.png" class=" d-block " alt="Slide 1">
+                                    <div class="carousel-caption " >
+                                        <h5>Blockchain</h5>
+                                        <p>Problem : Current land registration systems face several challenges,
+                                            including outdated records, inadequate digitization, title ownership
+                                            disputes, and difficulty in tracking fraudulent transactions like 
+                                            double-selling. There is also a lack of systems for verifying 
+                                            ownership and ensuring data integrity between departments, which 
+                                            leads to increased land litigations and inefficiencies.
+                                            Solution: A SaaS platform utilizing blockchain technology 
+                                            addresses these issues by providing an immutable and transparent
+                                            record of land ownership and transaction history.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row ">
+                                <div class="col-md-12 solution">
+                                    <img src="./images/AI.png" class=" d-block " alt="Slide 1">
+                                    <div class="carousel-caption " >
+                                        <h5>AI & Machine Learning</h5>
+                                        <p>Problem : Current land registration systems face several challenges,
+                                            including outdated records, inadequate digitization, title ownership
+                                            disputes, and difficulty in tracking fraudulent transactions like 
+                                            double-selling. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row ">
+                                <div class="col-md-12 solution">
+                                    <img src="./images/LRM.png" class=" d-block " alt="Slide 1">
+                                    <div class="carousel-caption " >
+                                        <h5>Cloud Computin</h5>
+                                        <p>Problem : Current land registration systems face several challenges,
+                                            including outdated records, inadequate digitization, title ownership
+                                            disputes, and difficulty in tracking fraudulent transactions like 
+                                            double-selling. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev custom-carousel-control" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next custom-carousel-control" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators absolute bottom-4 left-1/2 transform -translate-x-1/2">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="text-white" >
+            <div class="team-container">
+                <h2 class="team-title">We’ve got an entire team dedicated to supporting you and your business</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="./images/Rectangle 9.png" alt="Team Member 1">
+                        <div class="info">
+                            <p class="name">Aarthi</p>
+                            <p class="role">Software Engineer</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/Rectangle 5.png" alt="Team Member 2">
+                        <div class="info">
+                            <p class="name">Akhilesh</p>
+                            <p class="role">Machine Learning Engineer</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/Rectangle 5.png" alt="Team Member 1">
+                        <div class="info">
+                            <p class="name">Antony Jackwin</p>
+                            <p class="role">Software Engineer</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/Rectangle 5.png" alt="Team Member 2">
+                         <div class="info">
+                            <p class="name">Chandra pillai</p>
+                            <p class="role">Resource Developer</p>
+                        </div>
+                    </div><div class="team-member">
+                        <img src="./images/Rectangle 5.png" alt="Team Member 1">
+                         <div class="info">
+                            <p class="name">Ganesh</p>
+                            <p class="role">Machine Learning Engineer</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/Rectangle 9.png" alt="Team Member 2">
+                         <div class="info">
+                            <p class="name">Kanaka Durga</p>
+                            <p class="role">Software Engineer</p>
+                        </div>
+                    </div><div class="team-member">
+                        <img src="./images/Rectangle 5.png" alt="Team Member 1">
+                         <div class="info">
+                            <p class="name">Muthaiah</p>
+                            <p class="role">Software Engineer</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/Rectangle 5.png" alt="Team Member 2">
+                         <div class="info">
+                            <p class="name">Nihal Pailwan</p>
+                            <p class="role">DevOps</p>
+                        </div>
+                    </div><div class="team-member">
+                        <img src="./images/Rectangle 9.png" alt="Team Member 1">
+                         <div class="info">
+                            <p class="name">Nivashini</p>
+                            <p class="role">Accountant</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/Rectangle 9.png" alt="Team Member 2">
+                         <div class="info">
+                            <p class="name">Pooja</p>
+                            <p class="role">Machine Learning Engineer</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/Rectangle 5.png" alt="Team Member 1">
+                         <div class="info">
+                            <p class="name">Rajesh Ramachandran</p>
+                            <p class="role">Statergy & Bussiness Developer</p>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="./images/Rectangle 5.png" alt="Team Member 2">
+                         <div class="info">
+                            <p class="name">Rohit</p>
+                            <p class="role">Machine Learning Engineer</p>
+                        </div>
+                    </div><div class="team-member">
+                        <img src="./images/Rectangle 9.png" alt="Team Member 1">
+                         <div class="info">
+                            <p class="name">Vandita Rajesh</p>
+                            <p class="role">Humon Resource</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <section id="partner" style="background-image: url('./images/partner_background.png');">
+            <h2 class="text-center mb-4">Become a success story - Like these agencies</h2>
+            
+            <div id="partnersCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Carousel Items -->
+                <div class="carousel-inner">
+                    <!-- First Item -->
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-4">
+                                    <div class="partner-info">
+                                        <img src="./images/varphi final logo-01.png" alt="Varphi Logo" class="partner-logo mb-1">
+                                        <h3>Varphi</h3>
+                                        <p>VARPHI LLP is an engineering services and technology solutions provider offering comprehensive, 
+                                            innovative and cost-effective solutions covering Product Development, Systems Engineering and 
+                                            Manufacturing Engineering for their customers. Their expertise extends across Automotive, 
+                                            Commercial Vehicles, Aerospace, Medical Applications and Industrial Equipment Industries. 
+                                            ​They also provide technical, professional and industrial staffing and training solutions to 
+                                            variety of industries with 100 percent success rate.</p>
+                                        <a href="http://www.varphi.in" class="website-link">www.varphi.in</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 position-relative">
+                                    <div class="image-container">
+                                        <img src="./images/partner1.png" alt="Partner Image" class="main-image">
+                                    </div>
+                                    <div class="testimonial-box">
+                                        <p class="quote">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"</p>
+                                        <div class="author">
+                                            <h4>Andrews</h4>
+                                            <p>Senior Web Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+        
+                    <!-- Second Item -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-4">
+                                    <div class="partner-info">
+                                        <img src="./images/primus_logo.png" alt="Varphi Logo" class="partner-logo mb-3">
+                                        <h3>Partner 2</h3>
+                                        <p>Primus Partners is a leading India headquartered global management consulting firm 
+                                            trusted and engaged by leading Global & Indian organizations. Their mission is 
+                                            to provide innovative and practical solutions, leveraging the team's diverse 
+                                            expertise to deliver excellence and drive impactful growth across various sectors. 
+                                            They focus on our clients' most pressing challenges and opportunities, delivering 
+                                            tailored solutions that drive growth, efficiency, and transformation across 
+                                            industries and geographies.</p>
+                                        <a href="https://www.primuspartners.in/" class="website-link">www.varphi.in</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 position-relative">
+                                    <div class="image-container">
+                                        <img src="./images/primus_partner.png" alt="Partner Image" class="main-image">
+                                    </div>
+                                    <div class="testimonial-box">
+                                        <p class="quote">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"</p>
+                                        <div class="author">
+                                            <h4>Andrews</h4>
+                                            <p>Senior Web Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                   
+                </div>
+        
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev custom-carousel-control" type="button" data-bs-target="#partnersCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next custom-carousel-control" type="button" data-bs-target="#partnersCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+        
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#partnersCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#partnersCarousel" data-bs-slide-to="1"></button>
+                    <!-- <button type="button" data-bs-target="#partnersCarousel" data-bs-slide-to="2"></button> -->
+                </div>
+            </div>
+        </section>
+          
+        <section id="contact">
+            <div class="contact-wrapper">
+                <!-- Left Side - Contact Info -->
+                <div class="contact-info">
+                    <div class="location-icon">
+                        <img src="./images/map.png" alt="Location Icon" width="40" height="40">
+                    </div>
+                    <div class="info-section">
+                        <h5>Location</h5>
+                        <p>Building Address 1<br>Building Address 2</p>
+                    </div>
+                    <div class="info-section">
+                        <h5>Email</h5>
+                        <p>abc@email.com</p>
+                    </div>
+                    <div class="info-section">
+                        <h5>Phone</h5>
+                        <p>+91 12345 67890<br>+91 12345 67890</p>
+                    </div>
+                </div>
+        
+                <!-- Right Side - Contact Form -->
+                <div class="contact-form">
+                    <h2>Send a Message</h2>
+                    <p>Lorem ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <form onsubmit="sendEmail(event)">
+                        <div class="form-row">
+                            <input type="text" class="form-control" id="from_name" name="from_name" placeholder="Name">
+                            <input type="email" class="form-control" id="email_id" name="email_id" placeholder="Email">
+                        </div>
+                        <div class="form-row">
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+                        </div>
+                        <textarea placeholder="Message" class="form-control" id="message" name="message" rows="6"></textarea>
+                        <button type="submit" class="submit-btn">Submit Message</button>
+                    </form>
+                </div>
+            </div>
+           
+        </section>
+        <footer>
+            <div class="footer-content">
+                <span>© 2024 UNWITA INSIGHTS PVT LTD All Rights reserved</span>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Support</a>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            const slides = document.querySelectorAll('.carousel-slide');
+            let currentSlide = 0;
+
+            function showNextSlide() {
+                slides[currentSlide].style.transform = `translateX(-${100 * currentSlide}%)`;
+                currentSlide = (currentSlide + 1) % slides.length;
+            }
+
+            setInterval(showNextSlide, 3000);
+
+            (function () {
+                emailjs.init("r2hbUnS-jj0zXvJVV"); // Initialize EmailJS with your user ID
+            })();
+            
+            function sendEmail(event) {
+                alert("checking");
+                event.preventDefault(); // Prevent default form submission
+            
+                var from_name = document.getElementById("from_name").value;
+                var Email_id = document.getElementById("email_id").value;
+                var phone = document.getElementById("phone").value;
+                var subject = document.getElementById("subject").value;
+                var message = document.getElementById("message").value;
+            
+                // Confirm the user's input
+                var confirmation = confirm("Please confirm your details:\n\nName: " + from_name + "\nEmail: " + Email_id + "\Phone: " + phone + "\nMessage: " + message);
+            
+                if (confirmation) {
+                    var templateParams = {
+                        name: from_name,
+                        email: Email_id,
+                        phone: phone,
+                        subject: subject,
+                        message: message
+                    };
+            
+                    emailjs.send('service_4854f8s', 'template_edbrlmb', templateParams) // Use your service ID and template ID
+                        .then(function (response) {
+                            console.log(response);
+                            console.log('SUCCESS!', response.status, response.text);
+                            alert('Email sent successfully!');
+                            location.reload();
+                        }, function (error) {
+                            console.log('FAILED...', error);
+                            alert('Failed to send email.');
+                        });
+                }
+            }
+        </script>
+    </body>
+</html>
